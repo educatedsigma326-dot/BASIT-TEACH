@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BASIT TEACH</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background: #f4f6f9;
+        }
+
+        header {
+            background: linear-gradient(135deg, #1e3c72, #2a5298);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 40px;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            background: #222;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            color: #00c3ff;
+        }
+
+        .hero {
+            padding: 80px 20px;
+            text-align: center;
+            background: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            color: #1e3c72;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 18px;
+            color: #555;
+        }
+
+        .btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 12px 25px;
+            background: #2a5298;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background: #1e3c72;
+        }
+
+        .services {
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 30px;
+            color: #1e3c72;
+        }
+
+        .service-box {
+            display: inline-block;
+            width: 280px;
+            background: white;
+            margin: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        .service-box h3 {
+            margin-bottom: 10px;
+            color: #2a5298;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>BASIT TEACH</h1>
+    <p>Professional Teaching & Learning Solutions</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Courses</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h2>Welcome to BASIT TEACH</h2>
+    <p>We provide quality education, practical skills, and professional learning support.</p>
+    <a href="#" class="btn">Get Started</a>
+</section>
+
+<section class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <h3>Computer Courses</h3>
+        <p>DIT, MS Office, ICT, Python Programming and more.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Online Classes</h3>
+        <p>Live interactive classes with practical examples.</p>
+    </div>
+
+    <div class="service-box">
+        <h3>Exam Preparation</h3>
+        <p>Important MCQs, practical questions and solved papers.</p>
+    </div>
+
+</section>
+
+<footer>
+    <p>© 2026 BASIT TEACH | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
